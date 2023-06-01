@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+
+@font-face {
+    font-family:'byekan';
+    src: url('../fonts/byekan.ttf') format('truetype'),
+        url('../fonts/byekan') format('woff');
+    
+}
+@font-face {
+    font-family:'lalezar';
+    src: url('../fonts/lalezar.ttf') format('truetype')
+        src: url('../fonts/lalezar.woff') format('woff');}
+
+body{
+    font-family: byekan;
+    
+}
+    
+.header{
+height: 550px;
+    background-image: url(../images/background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 35px;
+    color: white;
+    
+}    
+.nav-list{
+    list-style-type: none;
+    text-align: center;
+}
+.nav-item{
+    display: inline-block;
+    height: ;
+    padding: 30px;
+    font-size: 20px;
+    }
+.nav-item:hover{
+    color: orange;
+}
+h1{
+    font-size: 60px;
+    font-family: lalezar;
+ 
+    margin-top: 90px;
+}     
+p{
+  margin: auto;
+    width: 450px;
+    height: 55px;
+    background-color: rgba(0,0,0,.2);
+    line-height: 55px;
+    border-radius: 20px;
+   
+border:1px solid white;
+    margin-top: 100px;
+font-size: 16px;}
+.members{
+    text-align: center;
+    padding: 50px 30px;
+
+}
+.member-list{
+    list-style-type: none;
+    margin-top: 25px;
+    
+}
+.member-item{
+    width: 450px;
+    display: inline-block;
+    margin: 10px;
+    box-shadow: 0 0 25px #bbbbbb; 
+    text-align: center;
+  border: 10px solid lightgray;
+    border-radius: 20px;
+    
+  
+}
+.member-pic{
+    width:100%}
+.member-list{
+    margin-top:25px; 
+}
+.member-bio{
+    padding:30px;
+    display:flex;
+    line-height: 30px;
+    text-align: justify;
+}
+
+
+}
+.member-name{
+    font-size: 25px;
+    margin-top: 5px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.about{
+    height: 700px;
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    padding-top: 50px;
+    background-color: #6a6767;
+    background-blend-mode: multiply;
+}
+.circle{
+    width: 600px;
+    height: 650px;
+    margin: auto;
+    background-color:rgba(135,135,135,0.3);
+    border-radius: 50%;
+    text-align: center;
+    padding: 100px 120px;
+    color: white;
+
+}
+
+.circle h2{
+    font-size:35px;
+    margin: auto;
+   }
+.circle p2{
+    padding:20px;
+    display: inline-block;
+    text-align: justify;
+   
+    line-height: 28px;
+    
+}
+.footer{
+   
+    
+    height: 100px;
+text-align: center;
+background-color: gray;
+  }
+   
+    .footera{
+        margin: 0px 400px;
+        
+        display: inline-block;
+     
+    }
+.footerb{
+    margin: 20px;
+}
+
+    
+
+
+ 
+    
+ 
+  
